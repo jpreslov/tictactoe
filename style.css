@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Gayathri&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+.game-board {
+    display: grid;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: 200px 200px 200px;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+// for some css stylings
+
+body {
+  display: flex;
+  justify-content: center;
+}
+.q {
+    font-family: 'Gayathri', sans-serif;
+    font-size: 100px;
+  background-color: #444;
+  border: 1px solid #555;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: #AAA;
+  cursor: pointer;
+}
+
+.q:hover {
+    background-color: rgb(36, 94, 94)
+}
+
+#q0, #q1, #q2, #q3, #q4, #q5 {
+    border-bottom: 5px solid black;
+}
+
+#q1, #q4, #q7 {
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+}
+
+.winner {
+    color: whitesmoke
+}
