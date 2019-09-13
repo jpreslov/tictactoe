@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Chilanka&display=swap');
 
-
+html {
+    background: palegoldenrod;
+    font-family: 'Chilanka', cursive;
+}
 .container {
     cursor: pointer;
     width: 320px;
@@ -11,10 +15,18 @@
 
 h1 {
     text-align: center;
+    text-shadow: 3px 5px 2px #1a3821ad, 8px 7px 19px rgba(206,89,55,0);
     font-size: 50px;
+    margin-bottom: 0px;
 }
 
 h2 {
+    text-align: center;
+    text-shadow: 3px 5px 2px #1a3821ad, 8px 7px 19px rgba(206,89,55,0);
+    margin-top: 0px;
+}
+ 
+h3 {
     text-align: center;
     
 }
@@ -30,12 +42,12 @@ h2 {
     float: left;
     font-size: 100px;
     text-align: center;
-    line-height: 100px;
+    line-height: 130px;
 }
 
 .col:hover {
-    background-color: aquamarine;
-    transition: .2s;
+    background-color: rgba(43, 139, 104, 0.712);
+    transition: .4s;
 }
 .border-b {
     border-bottom: 10px solid black;
