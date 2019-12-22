@@ -62,7 +62,7 @@ var pTurns = 0;
 
 function checkWin() {
     if (topLeft.innerHTML == 'X' && topMid.innerHTML == 'X' && topRight.innerHTML == 'X') {
-        alert('Player One wins! Give yourself a few pats on the back. You\'ve earned it. Really! You have. Not too many pats, though.');
+        alert('Player One wins! Give yourself a few pats on the back.');
         window.location.reload();
 
         // if (winningCombos[0][0].innerHTML =='X') {
@@ -70,73 +70,73 @@ function checkWin() {
         //     window.location.reload();
 
     } else if (centLeft.innerHTML == 'X' && centMid.innerHTML == 'X' && centRight.innerHTML == 'X') {
-        alert('Player One wins! Give yourself a few pats on the back. You\'ve earned it. Really! You have. Not too many pats, though.')
+        alert('Player One wins! Give yourself a few pats on the back.')
 
         window.location.reload();
 
     } else if (botLeft.innerHTML == 'X' && botMid.innerHTML == 'X' && botRight.innerHTML == 'X') {
-        alert('Player One wins! Give yourself a few pats on the back. You\'ve earned it. Really! You have. Not too many pats, though.')
+        alert('Player One wins! Give yourself a few pats on the back.')
 
         window.location.reload();
 
     } else if (topLeft.innerHTML == 'X' && centLeft.innerHTML == 'X' && botLeft.innerHTML == 'X') {
-        alert('Player One wins! Give yourself a few pats on the back. You\'ve earned it. Really! You have. Not too many pats, though.')
+        alert('Player One wins! Give yourself a few pats on the back.')
 
         window.location.reload();
 
     } else if (topMid.innerHTML == 'X' && centMid.innerHTML == 'X' && botMid.innerHTML == 'X') {
-        alert('Player One wins! Give yourself a few pats on the back. You\'ve earned it. Really! You have. Not too many pats, though.')
+        alert('Player One wins! Give yourself a few pats on the back.')
 
         window.location.reload();
 
     } else if (topRight.innerHTML == 'X' && centRight.innerHTML == 'X' && botRight.innerHTML == 'X') {
-        alert('Player One wins! Give yourself a few pats on the back. You\'ve earned it. Really! You have. Not too many pats, though.')
+        alert('Player One wins! Give yourself a few pats on the back.')
         window.location.reload();
 
     } else if (topLeft.innerHTML == 'X' && centMid.innerHTML == 'X' && botRight.innerHTML == 'X') {
-        alert('Player One wins! Give yourself a few pats on the back. You\'ve earned it. Really! You have. Not too many pats, though.')
+        alert('Player One wins! Give yourself a few pats on the back.')
         window.location.reload();
 
     } else if (topRight.innerHTML == 'X' && centMid.innerHTML == 'X' && botLeft.innerHTML == 'X') {
-        alert('Player One wins! Give yourself a few pats on the back. You\'ve earned it. Really! You have. Not too many pats, though.')
+        alert('Player One wins! Give yourself a few pats on the back.')
         window.location.reload();
         // Player 1 winning combos and alerts (not using an array)
         // Quirky alert box. Nice
 
     } else if (topLeft.innerHTML == 'O' && topMid.innerHTML == 'O' && topRight.innerHTML == 'O') {
-        alert('Player Two wins! That was so awesome. I\'m legitimately proud of you. What\'s your address? I\'ll mail you a trophy');
+        alert('Player Two wins! I\'m legitimately proud of you.');
         window.location.reload();
 
     } else if (centLeft.innerHTML == 'O' && centMid.innerHTML == 'O' && centRight.innerHTML == 'O') {
-        alert('Player Two wins! That was so awesome. I\'m legitimately proud of you. What\'s your address? I\'ll mail you a trophy')
+        alert('Player Two wins! I\'m legitimately proud of you.')
         window.location.reload();
 
     } else if (botLeft.innerHTML == 'O' && botMid.innerHTML == 'O' && botRight.innerHTML == 'O') {
-        alert('Player Two wins! That was so awesome. I\'m legitimately proud of you. What\'s your address? I\'ll mail you a trophy')
+        alert('Player Two wins! I\'m legitimately proud of you.')
         window.location.reload();
 
     } else if (topLeft.innerHTML == 'O' && centLeft.innerHTML == 'O' && botLeft.innerHTML == 'O') {
-        alert('Player Two wins! That was so awesome. I\'m legitimately proud of you. What\'s your address? I\'ll mail you a trophy')
+        alert('Player Two wins! I\'m legitimately proud of you.')
         window.location.reload();
 
     } else if (topMid.innerHTML == 'O' && centMid.innerHTML == 'O' && botMid.innerHTML == 'O') {
-        alert('Player Two wins! That was so awesome. I\'m legitimately proud of you. What\'s your address? I\'ll mail you a trophy')
+        alert('Player Two wins! I\'m legitimately proud of you.')
         window.location.reload();
 
     } else if (topRight.innerHTML == 'O' && centRight.innerHTML == 'O' && botRight.innerHTML == 'O') {
-        alert('Player Two wins! That was so awesome. I\'m legitimately proud of you. What\'s your address? I\'ll mail you a trophy')
+        alert('Player Two wins! I\'m legitimately proud of you.')
         window.location.reload();
 
     } else if (topLeft.innerHTML == 'O' && centMid.innerHTML == 'O' && botRight.innerHTML == 'O') {
-        alert('Player Two wins! That was so awesome. I\'m legitimately proud of you. What\'s your address? I\'ll mail you a trophy')
+        alert('Player Two wins! I\'m legitimately proud of you.')
         window.location.reload();
 
     } else if (topRight.innerHTML == 'O' && centMid.innerHTML == 'O' && botLeft.innerHTML == 'O') {
-        alert('Player Two wins! That was so awesome. I\'m legitimately proud of you. What\'s your address? I\'ll mail you a trophy')
+        alert('Player Two wins! I\'m legitimately proud of you.')
         window.location.reload();
 
     } else if (pTurns >= 5) {
-        alert('It was a tie. How did you mess up this badly? Are you kidding me? Come on. I\'m serious. Get it together and try again.')
+        alert('It was a tie. Come on now.')
         window.location.reload();
     }
     //Player 2 winning combos and alerts (no array)
